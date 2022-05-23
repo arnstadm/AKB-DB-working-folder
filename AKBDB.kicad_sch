@@ -5,10 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Unified Daughterboard")
+    (title "AKB DB")
     (date "2020-03-22")
-    (rev "C3")
-    (company "Designed by the keyboard community")
+    (rev "R1")
   )
 
   (lib_symbols
@@ -1208,11 +1207,11 @@
     (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify right bottom))
     (uuid 6475547d-3216-45a4-a15c-48314f1dd0f9)
   )
-  (text "ESD" (at 117.475 138.43 180)
+  (text "ESD + Fuse" (at 134.62 137.16 180)
     (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify right bottom))
     (uuid 8c6a821f-8e19-48f3-8f44-9b340f7689bc)
   )
-  (text "Misc" (at 257.81 137.16 180)
+  (text "JST" (at 257.81 137.16 180)
     (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify right bottom))
     (uuid a544eb0a-75db-4baf-bf54-9ca21744343b)
   )
@@ -1314,7 +1313,7 @@
     (property "Value" "5.1k" (id 1) (at 57.15 48.26 90)
       (effects (font (size 0.762 0.762)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 57.15 48.26 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 57.15 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 57.15 48.26 0)
@@ -1336,7 +1335,7 @@
     (property "Value" "5.1k" (id 1) (at 57.15 50.8 90)
       (effects (font (size 0.762 0.762)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 57.15 50.8 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 57.15 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 57.15 50.8 0)
@@ -1793,10 +1792,10 @@
       (reference "MH2") (unit 1) (value "Mount-M2") (footprint "random-keyboard-parts:Generic-Mounthole")
     )
     (path "/00000000-0000-0000-0000-00005c91b042"
-      (reference "R1") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R1") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005c91b0d9"
-      (reference "R2") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R2") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/ab4d3cc6-46c6-4604-bd23-c61d13cacd62"
       (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
